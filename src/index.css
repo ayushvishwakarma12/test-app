@@ -66,3 +66,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.heading {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -24,10 +24,12 @@ function App() {
 
   return (
     <div>
-      <button onClick={fetchInfo}>fetch data</button>
-      <div>result: {result}</div>
+      <button onClick={fetchInfo} className="button">
+        fetch data
+      </button>
+      <div className="heading">result: {result}</div>
       <button onClick={fetchdata}>fetch data</button>
-      <div>
+      <div className="heading">
         result:{" "}
         {data !== "" && data.map((item, i) => <div key={i}>{item}</div>)}
       </div>
